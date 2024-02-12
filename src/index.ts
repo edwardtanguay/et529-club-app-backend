@@ -12,7 +12,7 @@ interface IMember {
 
 const members: IMember[] = [
 	{
-		id: "iwj33j",
+		id: "2382js",
 		name: "James Hatfield",
 	},
 	{
@@ -23,6 +23,7 @@ const members: IMember[] = [
 
 app.get("/members", (req, res) => {
 	res.json(members);
+	// res.json('28jsf8943h s8f823@#$@$34 NETWORK ERROR: CORRUPTED DATA s832983j');
 });
 
 app.listen(port, () => {

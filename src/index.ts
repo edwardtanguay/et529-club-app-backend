@@ -8,17 +8,25 @@ const port = 3311;
 interface IMember {
 	id: string;
 	name: string;
+	age: number;
 }
 
 const members: IMember[] = [
 	{
 		id: "2382js",
 		name: "James Hatfield",
+		age: 55
 	},
 	{
 		id: "2jjilw",
 		name: "Maryilyn Oscarton",
+		age: 44
 	},
+	{
+		id: "28wjks",
+		name: "Viktor Ramstein",
+		age: 34
+	}
 ];
 
 app.get("/members", (req, res) => {
